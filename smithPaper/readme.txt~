@@ -1,0 +1,11 @@
+
+The function SMITHFIGURE plots a linear and quadratic discriminant
+for the N-P data used by C.A.B. Smith on his review paper on Fisher's 
+discriminant analysis and quadratic discriminant analysis. To obtain 
+Figure 1 in his paper, just use the following commands:
+
+
+dataset = 'psychotic'; 
+[lda, Sb, Sw, qda]  = smithFigure(dataset);
+
+
